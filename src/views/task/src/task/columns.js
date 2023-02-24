@@ -31,6 +31,13 @@ export default function () {
       width: 100
     },
     {
+      label: '分支',
+      width: 80,
+      render (h, scope) {
+        return scope.row.branch
+      }
+    },
+    {
       label: '版本',
       width: 80,
       render (h, scope) {
